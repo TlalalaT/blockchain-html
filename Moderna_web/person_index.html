@@ -24,7 +24,9 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="./assets/css/1.css" />
+  <link rel="stylesheet" href="./assets/css/2.css" />
+  <link rel="stylesheet" href="./assets/css/3.css" />
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -38,69 +40,59 @@
     <div class="container">
 
       <div class="logo float-left">
-        <h2 class="text-light"><a href="index_unlogin.html" ><span >基于区块链技术数字版权存证管理系统</span></a></h2>
+        <h2 class="text-light"><a href="index.html"><span>基于区块链技术数字版权存证管理系统</span></a></h2>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
-      <nav class="nav-menu float-right d-none d-lg-block" background:src="hreo-bg.jpg">
+      <nav class="nav-menu float-right d-none d-lg-block">
         <ul>
-          <li ><a href="index_unlogin.html">首页<i class="la la-angle-down"></i></a></li>
-          <li><a href="#">关于我们</a></li>
-          <!-- 当前界面按钮变色 要设置class="active"  -->
-          <li class="active"><a href="login_stu.html">登录</a></li>
+          <li class="active"><a href="index.html">首页</a></li>
+          <li class="drop-down"><a href="#">区块链版权存证</a>
+            <ul>
+              <li><a href="store_img.html">图片存证</a></li>
+              <li><a href="store_text.html">文本存证</a></li>
+              <li><a href="store_vidio.html">视频存证</a></li>
+              <li><a href="store_audio.html">音频存证</a></li>
+            </ul>
+          </li>
+          <li><a href="store_trade.html">作品交易登记</a></li>
+          <li class="drop-down"><a href="#">个人信息</a>
+            <ul>
+              <li><a href="person_model.html">我的主页</a></li>
+              <li><a href="#">存证记录</a></li>
+              <li><a href="#">交易记录</a></li>
+            
+            </ul>
+          </li>
+          <li><a href="#">举报</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-    <div id="login_content_bg">
-            <!-- 登录框-->
-            <div class="login_box">
-              <!-- 登录表单 -->
-              <form>
-                <div class="container" id ="login_context">
-                  
-                  <div >
-                    <div class="login_title"><a id="login_title">校外用户登录</a></div>
-                    
-                    <input id="user_phonenum" type="text" placeholder="请输入手机号">
-                  </div>
-                  <br>
-                  <div  > 
-                    <input  id="user_pswd" type="password" placeholder="请输入密码">
-                  </div>
-
-                  <div id="to_register"><a id="otherusers" href="login_register.html">没账号？注册</a></div>
-                  <div id="forgetpswd"><a id="forgetpswd" href="#">忘记密码？</a></div>
-
-                  
-                  <!-- 登录按钮 -->
-                  <div class="btn">
-                                        <input id="btn_login" type="button" value="登录">
-                  </div>
-                  
-                      <!-- <div class="carousel-item active">
-                        <div class="carousel-container">
-                          <a href="" class="btn-get-started animated fadeInUp">登录</a>
-                        </div>
-                      </div> -->
-                   
-                               
-              
-                </div>
-              </form>
-            </div>
-    </div>
+  <main >
+    <div id="app">
+      <div>
+      <div data-v-6d4c44c7="" class="category-wrapper">
+        <div class="upload-content">
+          <div data-v-6d4c44c7="" class="upload-image-wrapper">
+            <!-- 表格 -->
+            
+          </div>
+         
+        </div>
+      </div>
+      </div>
+      </div>
   
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
  
 
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <!-- <i href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
