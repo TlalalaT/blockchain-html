@@ -15,70 +15,46 @@
     <link href="assets/css/custom-styles.css" rel="stylesheet" />
     <!-- Google Fonts-->
     <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> 
-     
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="wrapper">
-        <nav class="navbar navbar-default top-navbar" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/img/中国传媒大学logo (2).png"  height="45" width="210"></a>
-            </div>
+        <!-- ======= Header ======= -->
+  <header id="new_header" class="fixed-top header-transparent">
+    <div class="container">
 
-            <ul class="nav navbar-top-links navbar-right">
-                <li class="dropdown">
-                    <a  href="index.html" >
-                        <i class="fa fa-desktop fa-fw"></i> 首页
-                    </a>
-                    
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a  href="#" >
-                        <i class="fa fa-tasks fa-fw"></i> 区块链版权存证
-                    </a>
-                    
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a  href="#" >
-                        <i class="fa fa-qrcode fa-fw"></i> 作品交易登记
-                    </a>
-                    
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i> 我的
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a href="#"><i class="fa fa-user fa-fw"></i> 个人页面</a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> 设置</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> 退出登录</a>
-                        </li>
-                    </ul>
-                    <!-- /.dropdown-user -->
-                </li>
-                <!-- /.dropdown -->
-                <li class="dropdown">
-                    <a  href="#" >
-                        <i class="fa fa-bell fa-fw"></i> 举报
-                    </a>
-                    
-                </li>
-                <!-- /.dropdown -->
-            </ul>
-        </nav>
-        <!--/. NAV TOP  -->
+      <div class="logo float-left">
+        <h2 class="text-light"><a href="index.html"><span>基于区块链技术数字版权存证管理系统</span></a></h2>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu float-right d-none d-lg-block">
+        <ul>
+            <li class="active"><a href="index.html">首页</a></li>
+            <li class="drop-down"><a href="#">区块链版权存证</a>
+              <ul>
+                <li><a href="store_img.html">图片存证</a></li>
+                <li><a href="store_text.html">文本存证</a></li>
+                <li><a href="store_vidio.html">视频存证</a></li>
+                <li><a href="store_audio.html">音频存证</a></li>
+              </ul>
+            </li>
+            <li><a href="store_trade.html">作品交易登记</a></li>
+            <li class="drop-down"><a href="#">个人信息</a>
+                <ul>
+                  <li><a href="personal_info.html">我的主页</a></li>
+                  <li><a href="store_record.html">存证记录</a></li>
+                  <li><a href="trade_record.html">交易记录</a></li>
+                </ul>
+              </li>
+            <li><a href="#">举报</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
         <nav class="navbar-default navbar-side" role="navigation">
 		<div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
             <div class="sidebar-collapse">
